@@ -6,8 +6,8 @@
 ```
 alexcomu/docker-nginx-ssh-mysql-php7:latest
 
-User Name: Topix
-Password: Topix
+User Name: topix
+Password: topix
 ```
 
 ### Then we can create the container with ports exposed as following
@@ -19,7 +19,7 @@ ssh -p7000 topix@localhost
 ### Shutdown mysql and php
 
 ```
-sudo service stop mysql
+sudo service mysql stop
 sudo service php7.0-fpm stop
 ```
 
