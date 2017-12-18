@@ -57,6 +57,14 @@ $ sudo service mongod restart
 $ mongo -u your_username -p your_password --authenticationDatabase=admin
 ```
 
+### Install NodeBB
+```
+sudo apt-get install -y git build-essential
+git clone -b v1.6.x https://github.com/NodeBB/NodeBB.git $HOME/nodebb
+cd nodebb
+ ./nodebb setup
+ ./nodebb start
+```
 
 
 
